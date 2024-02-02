@@ -3,7 +3,7 @@ import { useState } from 'react'
 // import { client } from '../../client';
 import emailjs from "@emailjs/browser";
 import { useRef } from 'react';
-import { shock } from '../assets/images';
+import { downarrow, shock } from '../assets/images';
 // import { img1, img2 } from '../assets/images';
 
 const Contact = () => {
@@ -51,9 +51,10 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className='min-h-screen w-full flex flex-col justify-start gap-6 items-center overflow-hidden'>
-      <h2 className="max-sm:w-[300px]  ring-[#163020] text-[#163020] w-auto lg:w-[400px] hover:text-[#9AD0C2] hover:bg-[#163020] ring-2  bg-[#9AD0C2] max-xl:text-[20px] xl:text-2xl text-center font-bold m-4 p-4  rounded-md shadow-lg shadow-[#2D9596] uppercase">Contact</h2>
-
+    <section id='contact' className='bg-card bg-cover min-h-screen w-full flex flex-col justify-start gap-6 items-center overflow-hidden'>
+      <h2 className="max-md:w-[300px] md:w-1/2  ring-[#163020] text-[#163020] w-auto lg:w-[400px] hover:text-[#9AD0C2] hover:bg-[#163020] ring-2  bg-[#9AD0C2] max-xl:text-[20px] xl:text-2xl text-center font-bold m-4 p-4  rounded-md shadow-lg shadow-[#2D9596] uppercase">Contact</h2>
+      <div className='flex lg:flex-row flex-col justify-start items-center w-full'>
+      <div className='flex flex-col justify-center items-center gap-4 lg:w-1/2 w-full h-full  rounded-md'>
       <div className="bg-white w-[300px] lg:w-[400px] shadow-lg shadow-black hover:shadow-[#2D9596] flex flex-col p-4 rounded-md gap-3 ">
         <div className="flex hover:bg-[#2D9596] hover:text-[#11293c] hover:ring-[#11293c]  justify-start items-center gap-2 p-2 rounded-md  ring-2 ring-[#2D9596]  ">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10 fill-white stroke-yellow-500 stroke-2">
@@ -68,13 +69,13 @@ const Contact = () => {
         </div>
       </div>
       {success ?  (
-        <div className=' bg-[#FEFAE0] mb-2 max-md:[90%] mx-1 ring-2 ring-black rounded-md flex flex-col justify-start items-center gap-2  text-[#265073]'>
+        <div className=' bg-[#FEFAE0]  m-4 w:[80%] mx-1  rounded-md flex flex-col justify-start items-center gap-2  text-[#265073]'>
           <h3 className="text-[#B99470] max-md:text-2xl text-4xl p-2 rounded-md">
           {success && "Thank you for getting in touch!"}</h3>
           <img className="m-1" src={shock} alt='shock' width={"250px"} height={"300px"}/>
         </div>
       ):(
-        <div className="flex w-[300px] min-h-[400px] mb-3 lg:w-[400px] mx-auto p-4 justify-center items-center shadow-2xl shadow-black  hover:shadow-[#2D9596] text-[#265073]  rounded-md  ">
+        <div className="flex bg-white w-[300px] min-h-[300px] mb-3 lg:w-[400px] mx-auto p-4 justify-center items-center shadow-2xl shadow-black  hover:shadow-[#2D9596] text-[#265073]  rounded-md  ">
         <form ref={ref} onSubmit={handleSubmit}  className="flex flex-col justify-start items-center gap-4 mx-auto w-full m">
             <input className="text-[#9AD0C2] block w-full rounded-md border-0 py-1.5 pl-7 pr-20 ring-2 ring-[#265073]  placeholder:text-[#2D9596]  focus:ring-[#265073] sm:text-sm sm:leading-6" type="text" placeholder="Your Name" name="name" value={form.name} onChange={setform} />
             <input className="text-[#9AD0C2] block w-full rounded-md border-0 py-1.5 pl-7 pr-20 ring-2 ring-[#265073]  placeholder:text-[#2D9596]  focus:ring-[#265073]  sm:text-sm sm:leading-6" type="email" placeholder="Your Email" name="email" value={form.email} onChange={setform} />
@@ -85,10 +86,17 @@ const Contact = () => {
               name="message"
               onChange={setform}
             />
-          <button type="button" className="py-2 px-4 text-black bg-[#9AD0C2] font-semibold rounded-lg shadow-md  hover:shadow-[#2D9596] hover:bg-white hover:ring-black ring-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" onClick={handleSubmit}>{!success ? 'Send Message' : 'Sending...'}</button>
+          <button type="button" className="max-lg:w-[280px] lg:w-[380px] p-2 mx-2 text-black bg-[#9AD0C2] font-semibold rounded-lg shadow-md  hover:shadow-[#2D9596] hover:bg-white hover:ring-black ring-1 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" onClick={handleSubmit}>{!success ? 'Send Message' : 'Sending...'}</button>
           </form>
         </div>
       ) }
+      </div>
+      <div className='max-lg:hidden flex justify-center items-center lg:w-1/2 w-full h-full'>
+        <img src={downarrow } alt='imgdownarrow' className='w-[300px] h-[400px] rounded-xl'/>
+      </div>
+      </div>
+
+      
     </section>
   );
 };

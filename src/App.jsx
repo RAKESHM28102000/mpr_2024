@@ -4,7 +4,7 @@ import { About, Contact, Footer, Gallery, Home, Navbar, Work, Worker } from './c
 
 
 function App() {
-  return (<div className='scroll-smooth mx-auto shadow-md bg-white w-full overflow-hidden shadow-white-400  min-h-screen'>
+  return (<div className='scroll-smooth mx-auto shadow-md bg-black w-full overflow-hidden shadow-white-400  min-h-screen'>
    <section className='px-2 lg:px-6'><Navbar/></section> 
    <section className='px-2 lg:px-6'><Home/></section> 
    <section className='px-2 lg:px-6'><About/></section>

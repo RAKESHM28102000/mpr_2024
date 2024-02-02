@@ -52,6 +52,12 @@ export default {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
+        "bg1":"url('assets/images/bg1.jpg')",
+        "bg2":"url('assets/images/bg2.jpg')",
+        "bg3":"url('assets/images/bg3.jpg')",
+        "bg4":"url('assets/images/bg4.jpg')",
+        "bg5":"url('assets/images/bg5.jpg')",
+        "gallerybg":"url('assets/images/gallerybg.jpg')",
         'hero': "url('assets/images/img1.jpg')",
         'card': "url('assets/images/img3.jpg')",
         'one': "url('assets/images/1.jpg')",
