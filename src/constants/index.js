@@ -1,10 +1,10 @@
-import {  mano, one, perumal, pradeep, prasanna, three, two } from "../assets/images";
+import {  highvolt, lineman, mano, perumal, pradeep, prasanna, two } from "../assets/images";
 import { facebook,twitter,instagram } from "../assets/icons";
  
 export const navLink=[{label:"Home",href:"#home"},{label:"About Us",href:"#about"},{label:"Work",href:"#work"},{label:"Testimonial",href:"#testimonial"},{label:"Contact",href:"#contact"},];
 export const services = [
     {
-        imgURL:one,
+        imgURL:highvolt,
         label: "High voltage",
         subtext: "MPR POWER TECH engineering , high voltage & low voltage systems that distributes power where is needed, safely andreliably, while providing optimal protection for personnel and equipment."
     },
@@ -14,7 +14,7 @@ export const services = [
         subtext: "Works puts lots of emphasis to ensure that every plumbing system installed isequipped Well sized and securely connected pipes, drainsfittings, values with valve assemblies and devices for theproper distribution of water."
     },
     {
-        imgURL:three,
+        imgURL:lineman,
         label: "MECHANICAL",
         subtext: "We install, maintain and repair climate-control systems in homes, schools, hospital, factories, offices, laboratories thermal comfort and maintaining good indoor air quality areour main purpose."
     },

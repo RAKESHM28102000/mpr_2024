@@ -12,8 +12,7 @@ const Sidebar = ({sidebar,setSidebar}) => {
  </button>
      <ul className="flex flex-col mt-8 items-center  px-3  gap-4 ">
      {navLink.map((item,index)=>{
-         return <li onClick={()=>setSidebar(!sidebar)} className='hover:text-zinc-900 border-2 border-transparent font-thin  
-hover:bg-white p-2  hover:border-white-400 rounded-lg' key={index}><a href={item.
+         return <li onClick={()=>setSidebar(!sidebar)} className='hover:text-violet-600  font-bold bg-violet-300 p-2 ring-violet-600 ring-2 w-[250px] text-left text-white hover:bg-white  rounded-lg' key={index}><a href={item.
 href} >{item.label}</a></li>
      })}
  </ul>

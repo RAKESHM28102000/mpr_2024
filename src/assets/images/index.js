@@ -35,10 +35,14 @@ import perumal from './perumal.jpg';
 import mano from './mano.jpeg';
 import prasanna from './prasanna.jpeg';
 import pradeep from './pradeep.jpeg';
+import shock from './electric-shock.png';
+import lineman from './lineman.png';
+import highvolt from './energy (1).png';
+import downarrow from './energy.png';
 
 
 
 
 export {
-    img1,img2,img3,one,two,three,four,five,six,seven,eight,nine,ten,work1,work2,work3,work4,work5,work6,work7,work8,work9,work10,work11,work12,work13,work14,work15,work16,work17,work18,work19,work20,pradeep,prasanna,perumal,mano,
+    downarrow,highvolt,shock,lineman,img1,img2,img3,one,two,three,four,five,six,seven,eight,nine,ten,work1,work2,work3,work4,work5,work6,work7,work8,work9,work10,work11,work12,work13,work14,work15,work16,work17,work18,work19,work20,pradeep,prasanna,perumal,mano,
 }

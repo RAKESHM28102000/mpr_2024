@@ -28,14 +28,14 @@ export default {
                 "to": { transform: "translateX(0)"},
                        },
         righttoleftinfinite:{
-          "from":{transform:"translateX(0)"},
+          "from":{transform:"translateX(2000px)"},
           "to":{transform:"translateX(-2000px)"}
         }
              },
         animation: {
              rightoleft: "rightoleft 2s ease-in-out ",
              lefttoright: "lefttoright 2s ease-in-out  ",
-             righttoleftinfinite:"righttoleftinfinite 30s ease-in-out  infinite both"
+             righttoleftinfinite:"righttoleftinfinite 20s linear  infinite alternate "
                         },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
@@ -81,6 +81,16 @@ export default {
         'work15':"url('assets/images/work-15.jpg')",
         'work16':"url('assets/images/work-16.jpg')",
         'work17':"url('assets/images/work-17.jpg')",
+        'work18':"url('assets/images/work-18.jpg')",
+        'work19':"url('assets/images/work-19.jpg')",
+        'work20':"url('assets/images/work-20.jpg')",
+        't1':"url('assets/images/transform-3.jpg')",
+        't2':"url('assets/images/transformer-4.jpg')",
+        't3':"url('assets/images/transformer1.jpg')",
+        't4':"url('assets/images/transformer2.jpg')",
+        'w1':"url('assets/images/weilding1.jpg')",
+        'w2':"url('assets/images/weilding2.jpg')",
+        'h1':"url('assets/images/highvoltage1.jpg')",
       },
       screens: {
         "wide": "1440px"

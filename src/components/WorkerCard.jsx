@@ -2,7 +2,7 @@
 // eslint-disable-next-line react/prop-types
 const WorkerCard = ({ imgURL, customerName, rating, feedback }) => {
   return (
-    <div className='bg-white shadow-lg rounded-md max-md:w-[240px] max-md:h-[400px] md:w-[300px] md:h-[400px] px-2 py-4 shadow-black flex justify-center items-center flex-col'>
+    <div className='max-md:w-[300px] bg-white ring-2 ring-transparent hover:ring-violet-600 shadow-lg hover:shadow-violet-600 rounded-md max-md:h-[400px] md:w-[300px] md:h-[400px] px-2 py-4 shadow-black flex justify-center items-center flex-col'>
       <img
         src={imgURL}
         alt='customer'

@@ -1,5 +1,5 @@
 import './App.css'
-import { About, Footer, Gallery, Home, Navbar, Work, Worker } from './components';
+import { About, Contact, Footer, Gallery, Home, Navbar, Work, Worker } from './components';
 
 
 
@@ -11,6 +11,7 @@ function App() {
    <section className='px-2 lg:px-6'><Work/></section> 
    <section className='px-2 lg:px-6'><Gallery/></section> 
    <section className='px-2 lg:px-6'><Worker/></section> 
+   <section className='px-2 lg:px-6'><Contact/></section> 
    <section className='px-1'><Footer/></section> 
    
   </div>)
