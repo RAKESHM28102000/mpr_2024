@@ -112,12 +112,12 @@ export const reviews = [
         feedback: "Electrical Engineer ",
         link:"https://www.linkedin.com/in/m-prasanna-kumar-b4b125178/"
     },
-    {
-        imgURL:rakesh,
-        customerName: 'Rakesh M',
-        rating:"WEB DEVELOPER",
-        feedback: "Agricultural&Irrigation Engineer",
-        link:"https://www.linkedin.com/in/rakesh-m-b67121217/"
-    },
+    // {
+        // imgURL:rakesh,
+        // customerName: 'Rakesh M',
+        // rating:"WEB DEVELOPER",
+        // feedback: "Agricultural&Irrigation Engineer",
+        // link:"https://www.linkedin.com/in/rakesh-m-b67121217/"
+    // },
 ];
 
