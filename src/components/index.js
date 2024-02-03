@@ -9,7 +9,8 @@ import Gallery from "./Gallery";
 import Worker from "./Worker";
 import WorkerCard from "./WorkerCard";
 import Contact from "./Contact";
-
+import SignUp from "./SignUp";
+import Login from "./Login";
 export {
-    Navbar,Sidebar,Home,About,Work,ServiceCard,Footer,Gallery,Worker,WorkerCard,Contact
+   SignUp,Login,Navbar,Sidebar,Home,About,Work,ServiceCard,Footer,Gallery,Worker,WorkerCard,Contact
 }

@@ -17,6 +17,7 @@ const Workers = () => {
             customerName={review.customerName}
             rating={review.rating}
             feedback={review.feedback}
+            link={review.link}
           />
         ))}
       </div>
