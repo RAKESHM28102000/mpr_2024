@@ -9,7 +9,7 @@ const Workers = () => {
         <span className='text-blue-600'> WE </span>
         ARE
       </h3>
-      <div className='mt-12 flex flex-1 justify-evenly items-center flex-wrap max-lg:flex-col gap-3'>
+      <div className='mt-2 mb-3 flex flex-1 justify-evenly items-center flex-wrap max-lg:flex-col gap-5'>
         {reviews.map((review, index) => (
           <WorkerCard
             key={index}

@@ -39,10 +39,12 @@ import shock from './electric-shock.png';
 import lineman from './lineman.png';
 import highvolt from './energy (1).png';
 import downarrow from './energy.png';
+import mprlogo from './mpr (3).png';
+import rakesh from './rakesh.jpg'
 
 
 
 
 export {
-    downarrow,highvolt,shock,lineman,img1,img2,img3,one,two,three,four,five,six,seven,eight,nine,ten,work1,work2,work3,work4,work5,work6,work7,work8,work9,work10,work11,work12,work13,work14,work15,work16,work17,work18,work19,work20,pradeep,prasanna,perumal,mano,
+   rakesh,mprlogo, downarrow,highvolt,shock,lineman,img1,img2,img3,one,two,three,four,five,six,seven,eight,nine,ten,work1,work2,work3,work4,work5,work6,work7,work8,work9,work10,work11,work12,work13,work14,work15,work16,work17,work18,work19,work20,pradeep,prasanna,perumal,mano,
 }

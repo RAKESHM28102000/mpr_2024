@@ -1,17 +1,17 @@
 import { useState } from "react"
 import { navLink } from "../constants"
 import Sidebar from "./Sidebar";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [sidebar,setSidebar]=useState(false);
   return (
-   <>
-    <header  className="max-md:fixed w-full py-4 min-h-[70px] backdrop-blur-xl bg-gradient-to-r from-indigo-600 to-pink-500 text-zinc-100 text-lg font-semibold drop-shadow-lg shadow-sm shadow-gray-800 sticky inset-x-0 top-0 z-50">
+    <header  className="w-full py-4 min-h-[70px] backdrop-blur-xl bg-gradient-to-r from-indigo-600 to-pink-500 text-zinc-100 text-lg font-semibold drop-shadow-lg shadow-sm shadow-gray-800 relative z-50">
         <nav className="flex justify-between items-center w-[99%] h-full mx-auto  ">
             <h1 className="text-xl p-2 rounded-lg shadow-lg bg-black shadow-gray-800 font-bold">MPR POWER TECH</h1>
             <ul className="lg:flex justify-between items-center hidden  shadow-lg shadow-gray-800 bg-black px-3 border-2 rounded-lg border-violet-950  gap-4 ">
                 {navLink.map((item,index)=>{
-                    return <li className='hover:text-zinc-900 border-2 border-transparent font-thin  hover:bg-white p-2  hover:border-white-400 rounded-lg' key={index}><a href={item.href} >{item.label}</a></li>
+                    return <li className='hover:text-zinc-900 border-2 border-transparent font-thin  hover:bg-white p-2  hover:border-white-400 rounded-lg' key={index}><NavLink to={item.href} >{item.label}</NavLink></li>
                 })}
             </ul>
              <div className="max-lg:flex justify-start items-center gap-2  hidden">
@@ -27,7 +27,7 @@ const Navbar = () => {
             }
         </>
     </header>
-   </>
+
   )
 }
 

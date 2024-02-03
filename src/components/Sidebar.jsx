@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import { navLink } from "../constants"
 
 // eslint-disable-next-line react/prop-types
@@ -11,7 +12,7 @@ const Sidebar = ({sidebar,setSidebar}) => {
     </div> 
      <ul className="flex flex-col mt-8 items-center  px-3  gap-4 ">
      {navLink.map((item,index)=>{
-         return <a onClick={()=>setSidebar(!sidebar)}  key={index} className='hover:text-violet-600  font-bold bg-violet-300 p-2 ring-violet-600 ring-2 w-[250px] text-left text-white hover:bg-white  rounded-lg' href={item.href} ><li>{item.label}</li></a>
+         return <NavLink onClick={()=>setSidebar(!sidebar)}  key={index} className='hover:text-violet-600  font-bold bg-violet-300 p-2 ring-violet-600 ring-2 w-[250px] text-left text-white hover:bg-white  rounded-lg' to={item.href} ><li>{item.label}</li></NavLink>
      })}
  </ul>
     </div>
