@@ -11,6 +11,7 @@ import WorkerCard from "./WorkerCard";
 import Contact from "./Contact";
 import SignUp from "./SignUp";
 import Login from "./Login";
+import Coursel from "./Coursel";
 export {
-   SignUp,Login,Navbar,Sidebar,Home,About,Work,ServiceCard,Footer,Gallery,Worker,WorkerCard,Contact
+  Coursel,SignUp,Login,Navbar,Sidebar,Home,About,Work,ServiceCard,Footer,Gallery,Worker,WorkerCard,Contact
 }

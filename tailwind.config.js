@@ -28,14 +28,14 @@ export default {
                 "to": { transform: "translateX(0)"},
                        },
         righttoleftinfinite:{
-          "from":{transform:"translateX(2000px)"},
-          "to":{transform:"translateX(-2000px)"}
+          "from":{transform:"translateX(3000px)"},
+          "to":{transform:"translateX(-3000px)"}
         }
              },
         animation: {
              rightoleft: "rightoleft 2s ease-in-out ",
              lefttoright: "lefttoright 2s ease-in-out  ",
-             righttoleftinfinite:"righttoleftinfinite 20s linear  infinite alternate "
+             righttoleftinfinite:"righttoleftinfinite 30s linear  infinite alternate "
                         },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],

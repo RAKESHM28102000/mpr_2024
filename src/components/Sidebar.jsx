@@ -14,6 +14,7 @@ const Sidebar = ({sidebar,setSidebar}) => {
      {navLink.map((item,index)=>{
          return <NavLink onClick={()=>setSidebar(!sidebar)}  key={index} className='hover:text-violet-600  font-bold bg-violet-300 p-2 ring-violet-600 ring-2 w-[250px] text-left text-white hover:bg-white  rounded-lg' to={item.href} ><li>{item.label}</li></NavLink>
      })}
+     <NavLink onClick={()=>setSidebar(!sidebar)} className='hover:text-violet-600  font-bold bg-violet-300 p-2 ring-violet-600 ring-2 w-[250px] text-left text-white hover:bg-white  rounded-lg' to="/login" ><li>Login</li></NavLink>
  </ul>
     </div>
   )

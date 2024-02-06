@@ -1,7 +1,14 @@
-import {  highvolt, lineman, mano, mprlogo, perumal, pradeep, prasanna, rakesh, two } from "../assets/images";
+import {  highvolt, lineman, mano, mprlogo, perumal, pradeep, prasanna, two } from "../assets/images";
 import { facebook,twitter,instagram } from "../assets/icons";
  
-export const navLink=[{label:"Home",href:"/"},{label:"About Us",href:"/about"},{label:"Work",href:"/work"},{label:"Testimonial",href:"/testimonial"},{label:"Team",href:"/team"},{label:"Contact",href:"/contact"},];
+export const navLink=[{label:"Home",href:"/"},
+{label:"About Us",href:"/about"},
+{label:"Work",href:"/work"},
+{label:"Testimonial",href:"/testimonial"},
+{label:"Team",href:"/team"},
+{label:"Contact",href:"/contact"},
+{label:"SignUp",href:"/signup"},
+];
 
 export const services = [
     {
@@ -58,64 +65,58 @@ export const socialMedia = [
 ];
 export const reviews = [
     {
-        imgURL:mprlogo,
-        customerName: 'Meenambigai M',
-        rating:"Owner & Founder",
-        feedback: "Head of MPR POWER TECH"
+        imgURL:prasanna,
+        name: 'Prasanna Kumar M',
+       experience:"5+ years of experience",
+      role: "CEO & Electrical Engineer ",
+        link:"https://www.linkedin.com/in/m-prasanna-kumar-b4b125178/"
     },
     {
         imgURL:mano,
-        customerName: 'Mano K',
-        rating:"25+ years of experience",
-        feedback: "CEO & ELECTRICAL SPECIALIST",
-        link:"https://www.linkedin.com/in/mano-k-189891279/"
-    },
-    {
-        imgURL:perumal,
-        customerName: 'Perumal K',
-        rating:"20+ years of experience",
-        feedback: "Head Electrician",
-        link:"https://www.linkedin.com/in/mano-k-189891279/"
-    },
-    {
-        imgURL:mprlogo,
-        customerName: 'Ariv Arasu R',
-        rating:"20+ years of experience",
-        feedback: "Electrian ",
-        link:"https://www.linkedin.com/in/mano-k-189891279/"
-    },
-    {
-        imgURL:mprlogo,
-        customerName: 'Billa ',
-        rating:"10+ years of experience",
-        feedback: "Electrian & Driver",
-        link:"https://www.linkedin.com/in/mano-k-189891279/"
-    },
-    {
-        imgURL:mprlogo,
-        customerName: 'Douglas K',
-        rating:"7+ years of experience",
-        feedback: "Material Handler Expert ",
+        name: 'Mano K',
+       experience:"25+ years of experience",
+       role: "Founder & ELECTRICAL SPECIALIST",
         link:"https://www.linkedin.com/in/mano-k-189891279/"
     },
     {
         imgURL:pradeep,
-        customerName: 'Pradeep Kumar M',
-        rating:"5+ years of experience",
-        feedback: "Civil Engineer ",
+        name: 'Pradeep Kumar M',
+        experience:"5+ years of experience",
+        role: "Civil Engineer ",
         link:"https://www.linkedin.com/in/mano-k-189891279/"
     },
     {
-        imgURL:prasanna,
-        customerName: 'Prasanna Kumar M',
-        rating:"5+ years of experience",
-        feedback: "Electrical Engineer ",
-        link:"https://www.linkedin.com/in/m-prasanna-kumar-b4b125178/"
+        imgURL:perumal,
+        name: 'Perumal K',
+       experience:"20+ years of experience",
+      role: "Head Electrician",
+        link:"https://www.linkedin.com/in/mano-k-189891279/"
+    },
+    {
+        imgURL:mprlogo,
+        name: 'Ariv Arasu R',
+       experience:"20+ years of experience",
+      role: "Electrian ",
+        link:"https://www.linkedin.com/in/mano-k-189891279/"
+    },
+    {
+        imgURL:mprlogo,
+        name: 'Billa ',
+       experience:"10+ years of experience",
+      role: "Electrian & Driver",
+        link:"https://www.linkedin.com/in/mano-k-189891279/"
+    },
+    {
+        imgURL:mprlogo,
+        name: 'Douglas K',
+       experience:"7+ years of experience",
+      role: "Material Handler Expert ",
+        link:"https://www.linkedin.com/in/mano-k-189891279/"
     },
     // {
         // imgURL:rakesh,
-        // customerName: 'Rakesh M',
-        // rating:"WEB DEVELOPER",
+        // name: 'Rakesh M',
+        //experience:"WEB DEVELOPER",
         // feedback: "Agricultural&Irrigation Engineer",
         // link:"https://www.linkedin.com/in/rakesh-m-b67121217/"
     // },

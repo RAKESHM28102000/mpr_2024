@@ -1,5 +1,5 @@
 import './App.css'
-import { About, Contact, Footer, Gallery, Home, Login, Navbar, SignUp, Work, Worker } from './components';
+import { About, Contact, Coursel, Footer, Gallery, Home, Login, Navbar, SignUp, Work, Worker } from './components';
 import { BrowserRouter as Router,Routes, Route,} from 'react-router-dom';
 
 
@@ -18,6 +18,7 @@ function App() {
      <Route path="/contact" element={<Contact/>} />
      <Route path="/login" element={<Login/>} />
      <Route path="/signup" element={<SignUp/>} />
+     <Route path="/coursel" element={<Coursel/>} />
      <Route path='*' element={<Home/>}/>
    </Routes>
    </main>
