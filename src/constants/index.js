@@ -113,12 +113,12 @@ export const reviews = [
       role: "Material Handler Expert ",
         link:"https://www.linkedin.com/in/mano-k-189891279/"
     },
-    // {
-        // imgURL:rakesh,
-        // name: 'Rakesh M',
-        //experience:"WEB DEVELOPER",
-        // feedback: "Agricultural&Irrigation Engineer",
-        // link:"https://www.linkedin.com/in/rakesh-m-b67121217/"
-    // },
+    {
+        imgURL:mprlogo,
+        name: 'Rakesh M',
+        experience:"WEB DEVELOPER & Graphic Designer",
+        role: "Agricultural&Irrigation Engineer",
+        link:"https://www.linkedin.com/in/rakesh-m-b67121217/"
+    },
 ];
 
